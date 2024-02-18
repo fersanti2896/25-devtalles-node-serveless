@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": ["../../../../../josantiago/Documents/Cursos DevTalles/NodeJs - De Cero a Experto/25 - Serveless/netlify/functions/hello/hello.ts"],
+  "sourceRoot": "C:/Users/JOSANT~1/AppData/Local/Temp/tmp-4032-0cjax6auflK4",
+  "sourcesContent": ["import type { Handler, HandlerEvent, HandlerContext } from '@netlify/functions';\r\n\r\nconst handler: Handler = async ( event: HandlerEvent, context: HandlerContext ) => {\r\n    return {\r\n        statusCode: 200,\r\n        body: JSON.stringify({\r\n            message: 'Hola mundo'\r\n        }),\r\n        headers: {\r\n            'Content-Type': 'application/json'\r\n        }\r\n    }\r\n};\r\n\r\nexport { handler };\r\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAEA,IAAM,UAAmB,OAAQ,OAAqB,YAA6B;AAC/E,SAAO;AAAA,IACH,YAAY;AAAA,IACZ,MAAM,KAAK,UAAU;AAAA,MACjB,SAAS;AAAA,IACb,CAAC;AAAA,IACD,SAAS;AAAA,MACL,gBAAgB;AAAA,IACpB;AAAA,EACJ;AACJ;",
+  "names": []
+}

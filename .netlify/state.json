@@ -1,0 +1,19 @@
+{
+	"geolocation": {
+		"data": {
+			"country": {
+				"code": "MX",
+				"name": "Mexico"
+			},
+			"subdivision": {
+				"code": "CMX",
+				"name": "Mexico City"
+			},
+			"timezone": "America/Mexico_City",
+			"latitude": 19.4354,
+			"longitude": -99.1427
+		},
+		"timestamp": 1708243244550
+	},
+	"siteId": "f06addca-9f3b-41b2-8263-f463dac59588"
+}

@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": ["../../../../../josantiago/Documents/Cursos DevTalles/NodeJs - De Cero a Experto/25 - Serveless/netlify/functions/variables/variables.ts"],
+  "sourceRoot": "C:/Users/JOSANT~1/AppData/Local/Temp/tmp-4032-ZE0y10HASEp2",
+  "sourcesContent": ["import type { Handler, HandlerEvent, HandlerContext } from '@netlify/functions';\r\n\r\nconst handler: Handler = async ( event: HandlerEvent, context: HandlerContext ) => {\r\n    const myImportantVariable = process.env.MY_IMPORTANTE_VARIABLE;\r\n\r\n    if( !myImportantVariable ) {\r\n        throw new Error('Missing MY_IMPORTANTE_VARIABLE')\r\n    }\r\n\r\n    return {\r\n        statusCode: 200,\r\n        body: JSON.stringify({\r\n            message: 'Hola mundo',\r\n            myImportantVariable\r\n        }),\r\n        headers: {\r\n            'Content-Type': 'application/json'\r\n        }\r\n    }\r\n};\r\n\r\nexport { handler };\r\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAEA,IAAM,UAAmB,OAAQ,OAAqB,YAA6B;AAC/E,QAAM,sBAAsB,QAAQ,IAAI;AAExC,MAAI,CAAC,qBAAsB;AACvB,UAAM,IAAI,MAAM,gCAAgC;AAAA,EACpD;AAEA,SAAO;AAAA,IACH,YAAY;AAAA,IACZ,MAAM,KAAK,UAAU;AAAA,MACjB,SAAS;AAAA,MACT;AAAA,IACJ,CAAC;AAAA,IACD,SAAS;AAAA,MACL,gBAAgB;AAAA,IACpB;AAAA,EACJ;AACJ;",
+  "names": []
+}
